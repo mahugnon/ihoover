@@ -1,6 +1,6 @@
 [![CI](https://github.com/mahugnon/ihoover/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/mahugnon/ihoover/actions/workflows/ci.yml)
 # ihoover
-Moving a hoover from `(x,y,O)` to `(x',y',O')` in a grid.
+I Moving an aspirator from `(x,y,O)` to `(x',y',O')` in a grid.
 
 ### Test : 
 ```java
