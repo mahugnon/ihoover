@@ -15,12 +15,12 @@ class AspiratorTest {
     }
 
     @Test
-    void moveDNE() {
+    void testMoveDNE() {
         aspirator.setOrientation('N');
         aspirator.move("D");
         Assertions.assertEquals(5,aspirator.getX());
         Assertions.assertEquals(5,aspirator.getY());
-        Assertions.assertEquals('E',aspirator.getOrientation());
+        Assertions.assertEquals( Character.valueOf('E'),aspirator.getOrientation());
     }
 
     @Test
@@ -29,7 +29,7 @@ class AspiratorTest {
         aspirator.move("D");
         Assertions.assertEquals(5,aspirator.getX());
         Assertions.assertEquals(5,aspirator.getY());
-        Assertions.assertEquals('S',aspirator.getOrientation());
+        Assertions.assertEquals( Character.valueOf('S'),aspirator.getOrientation());
     }
     @Test
     void moveDSW() {
@@ -37,7 +37,7 @@ class AspiratorTest {
         aspirator.move("D");
         Assertions.assertEquals(5,aspirator.getX());
         Assertions.assertEquals(5,aspirator.getY());
-        Assertions.assertEquals('W',aspirator.getOrientation());
+        Assertions.assertEquals( Character.valueOf('W'),aspirator.getOrientation());
     }
     @Test
     void moveDWN() {
@@ -45,7 +45,7 @@ class AspiratorTest {
         aspirator.move("D");
         Assertions.assertEquals(5,aspirator.getX());
         Assertions.assertEquals(5,aspirator.getY());
-        Assertions.assertEquals('N',aspirator.getOrientation());
+        Assertions.assertEquals( Character.valueOf('N'),aspirator.getOrientation());
     }
     @Test
     void moveGNW() {
@@ -53,7 +53,7 @@ class AspiratorTest {
         aspirator.move("G");
         Assertions.assertEquals(5,aspirator.getX());
         Assertions.assertEquals(5,aspirator.getY());
-        Assertions.assertEquals('W',aspirator.getOrientation());
+        Assertions.assertEquals( Character.valueOf('W'),aspirator.getOrientation());
     }
     @Test
     void moveGWS() {
@@ -61,7 +61,7 @@ class AspiratorTest {
         aspirator.move("G");
         Assertions.assertEquals(5,aspirator.getX());
         Assertions.assertEquals(5,aspirator.getY());
-        Assertions.assertEquals('S',aspirator.getOrientation());
+        Assertions.assertEquals( Character.valueOf('S'),aspirator.getOrientation());
     }
     @Test
     void moveGSE() {
@@ -69,7 +69,7 @@ class AspiratorTest {
         aspirator.move("G");
         Assertions.assertEquals(5,aspirator.getX());
         Assertions.assertEquals(5,aspirator.getY());
-        Assertions.assertEquals('E',aspirator.getOrientation());
+        Assertions.assertEquals( Character.valueOf('E'),aspirator.getOrientation());
     }
     @Test
     void moveGEN() {
@@ -77,7 +77,7 @@ class AspiratorTest {
         aspirator.move("G");
         Assertions.assertEquals(5,aspirator.getX());
         Assertions.assertEquals(5,aspirator.getY());
-        Assertions.assertEquals('N',aspirator.getOrientation());
+        Assertions.assertEquals( Character.valueOf('N'),aspirator.getOrientation());
     }
     @Test
     void moveAN() {
@@ -85,7 +85,7 @@ class AspiratorTest {
         aspirator.move("A");
         Assertions.assertEquals(5,aspirator.getX());
         Assertions.assertEquals(6,aspirator.getY());
-        Assertions.assertEquals('N',aspirator.getOrientation());
+        Assertions.assertEquals( Character.valueOf('N'),aspirator.getOrientation());
     }
 
     @Test
@@ -94,7 +94,7 @@ class AspiratorTest {
         aspirator.move("A");
         Assertions.assertEquals(6,aspirator.getX());
         Assertions.assertEquals(5,aspirator.getY());
-        Assertions.assertEquals('E',aspirator.getOrientation());
+        Assertions.assertEquals( Character.valueOf('E'),aspirator.getOrientation());
     }
 
     @Test
@@ -103,7 +103,7 @@ class AspiratorTest {
         aspirator.move("A");
         Assertions.assertEquals(5,aspirator.getX());
         Assertions.assertEquals(4,aspirator.getY());
-        Assertions.assertEquals('S',aspirator.getOrientation());
+        Assertions.assertEquals( Character.valueOf('S'),aspirator.getOrientation());
     }
     @Test
     void moveAW() {
@@ -111,7 +111,7 @@ class AspiratorTest {
         aspirator.move("A");
         Assertions.assertEquals(4,aspirator.getX());
         Assertions.assertEquals(5,aspirator.getY());
-        Assertions.assertEquals('W',aspirator.getOrientation());
+        Assertions.assertEquals( Character.valueOf('W'),aspirator.getOrientation());
     }
 
     @Test
@@ -120,6 +120,6 @@ class AspiratorTest {
         aspirator.move("DADADADAA");
         Assertions.assertEquals(5,aspirator.getX());
         Assertions.assertEquals(6,aspirator.getY());
-        Assertions.assertEquals('N',aspirator.getOrientation());
+        Assertions.assertEquals(Character.valueOf('N'),aspirator.getOrientation());
     }
 }

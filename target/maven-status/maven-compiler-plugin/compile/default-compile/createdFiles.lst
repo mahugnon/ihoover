@@ -1,0 +1,8 @@
+iHoover/core/MoveRequestHandler.class
+iHoover/core/Grille.class
+iHoover/strategy/OrientationStrategy.class
+iHoover/strategy/LeftOrientationStrategy.class
+iHoover/strategy/ForwardStrategy.class
+iHoover/strategy/RightOrientationStrategy.class
+iHoover/strategy/MovingStrategy.class
+iHoover/core/Aspirator.class
