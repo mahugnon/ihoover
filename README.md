@@ -10,7 +10,7 @@ I Moving an aspirator from `(x,y,O)` to `(x',y',O')` in a grid.
  aspirator.move("DADADADAA");
   
 ```
-### My result
+### My result :
 ```java
 
  aspirator.getX() : 5
