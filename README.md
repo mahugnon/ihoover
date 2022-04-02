@@ -2,11 +2,13 @@
 # ihoover
 Moving a hoover from `(x,y,O)` to `(x',y',O')` in a grid.
 
-### Run : 
+### Test : 
 ```java
  Grille grille = new Grille(10,10);
  Aspirator aspirator = new Aspirator(5,5,'N',grille);
  aspirator.move("DADADADAA");
+ 
+# Result
  aspirator.getX() : 5
  aspirator.getY() : 6
  aspirator.getOrientation() : 'N'
