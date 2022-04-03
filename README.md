@@ -2,7 +2,7 @@
 # ihoover
 :information_desk_person: I move an aspirator from `(x,y,O)` to `(x',y',O')` in a given grid :smiley::smiley:.
 
-### :information_desk_person: Test me :smiley::smiley:: 
+### :information_desk_person: Test me :smiley: : 
 
  ```java
  
@@ -13,7 +13,7 @@
 ```
   
 
-### :information_desk_person: My result :smiley::smiley::
+### :information_desk_person: My result :smiley: :
 ```java
 
  aspirator.getX() : 5
