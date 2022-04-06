@@ -1,4 +1,4 @@
-package iHoover.strategy;
+package fr.mahugnon.strategy;
 
 public class RightOrientationStrategy extends OrientationStrategy {
 

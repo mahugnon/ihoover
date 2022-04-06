@@ -1,6 +1,6 @@
-package iHoover.strategy;
+package fr.mahugnon.strategy;
 
-import iHoover.core.Aspirator;
+import fr.mahugnon.core.Aspirator;
 
 import java.util.HashMap;
 import java.util.function.Function;

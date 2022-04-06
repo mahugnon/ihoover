@@ -1,4 +1,4 @@
-package iHoover.core;
+package fr.mahugnon.core;
 
 
 import org.junit.jupiter.api.Assertions;

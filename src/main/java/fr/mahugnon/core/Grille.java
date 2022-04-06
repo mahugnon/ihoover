@@ -1,4 +1,4 @@
-package iHoover.core;
+package fr.mahugnon.core;
 
 public class Grille {
     private  int x;

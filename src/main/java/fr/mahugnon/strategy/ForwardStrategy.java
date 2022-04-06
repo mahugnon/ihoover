@@ -1,17 +1,17 @@
-package iHoover.strategy;
+package fr.mahugnon.strategy;
 
-import iHoover.core.Aspirator;
-import iHoover.core.Grille;
+import fr.mahugnon.core.Aspirator;
+import fr.mahugnon.core.Grille;
 
 public class ForwardStrategy extends MovingStrategy {
     private Grille grille;
 
     public ForwardStrategy(Grille grille) {
         this.grille = grille;
-        next.put('N',(x)-> this.moveForwardToNorth(x));
-        next.put('E',(x)->this.moveForwardEast(x));
-        next.put('S',(x)->this.moveForwardSouth(x));
-        next.put('W',(x)->this.moveForwardWest(x));
+        next.put('N',x-> this.moveForwardToNorth(x));
+        next.put('E',x->this.moveForwardEast(x));
+        next.put('S',x->this.moveForwardSouth(x));
+        next.put('W',x->this.moveForwardWest(x));
     }
 
     public Grille getGrille() {

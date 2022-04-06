@@ -1,4 +1,4 @@
-package iHoover.core;
+package fr.mahugnon.core;
 
 public class Aspirator {
     private int x;
@@ -40,7 +40,6 @@ public class Aspirator {
 
     public  void  move(String instruction){
         MoveRequestHandler requestHandler = new MoveRequestHandler(grille);
-
         for (int i = 0; i <instruction.length(); i++) {
             requestHandler.move(this,instruction.charAt(i));
         }

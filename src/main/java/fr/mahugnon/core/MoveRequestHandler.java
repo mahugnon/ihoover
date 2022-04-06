@@ -1,9 +1,9 @@
-package iHoover.core;
+package fr.mahugnon.core;
 
-import iHoover.strategy.ForwardStrategy;
-import iHoover.strategy.LeftOrientationStrategy;
-import iHoover.strategy.MovingStrategy;
-import iHoover.strategy.RightOrientationStrategy;
+import fr.mahugnon.strategy.ForwardStrategy;
+import fr.mahugnon.strategy.LeftOrientationStrategy;
+import fr.mahugnon.strategy.MovingStrategy;
+import fr.mahugnon.strategy.RightOrientationStrategy;
 
 import java.util.HashMap;
 import java.util.Map;
